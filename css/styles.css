@@ -203,3 +203,44 @@
 .bloque-contenedor div:hover {
     color: #CCC;
 }
+
+.rubro-thumb{
+    max-height: 100px;
+    max-width: 150px;
+}
+
+.rubro-text{
+    position: relative;
+    bottom: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#rubros a{
+    padding: 4px 4px;
+}
+
+#rubros-wraper{
+    margin: 10px 15px;
+}
+
+.lista-rubros li{
+    font-size: 0.8em;
+}
+
+#rubrosContent{
+    margin-top: 10px;
+}
+
+.snippet-rubro {
+    margin-bottom: 10px;
+}
+
+.snippet-rubro span{
+    font-size: 0.7em;
+    font-style: italic;
+}
