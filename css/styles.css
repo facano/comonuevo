@@ -240,6 +240,10 @@
     margin-bottom: 10px;
 }
 
+.tab-content h4{
+    margin-left: 10px;
+}
+
 .snippet-rubro span{
     font-size: 0.7em;
     font-style: italic;
