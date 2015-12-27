@@ -181,3 +181,8 @@
 .multimedia-carousel img{
     max-height: 100px;
 }
+
+.line{
+    height: 4px;
+    width: 120px;
+}
