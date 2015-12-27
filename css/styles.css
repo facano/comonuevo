@@ -186,3 +186,20 @@
     height: 4px;
     width: 120px;
 }
+
+.multimedia-text{
+    position: relative;
+    bottom: 61px;
+    max-width: 299px;
+    height: 36px;
+    padding-top: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+.bloque-contenedor a{
+    color: white;
+    text-decoration: none;
+}
+.bloque-contenedor div:hover {
+    color: #CCC;
+}
