@@ -38,7 +38,7 @@
 }
 
 .nav-list li a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-decoration:  none;
 }
 
@@ -47,7 +47,7 @@
 }
 
 #section-header .nav-list li a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #000;
 }
 
@@ -247,4 +247,8 @@
 .snippet-rubro span{
     font-size: 0.7em;
     font-style: italic;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
 }
