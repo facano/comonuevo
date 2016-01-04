@@ -252,3 +252,22 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+.sub-rubros{
+    top: -43px;
+    position: relative;
+}
+
+.nav-pills>li.active>a.pills-rubros, .nav-pills>li.active>a.pills-rubros:hover{
+    background-color: #E6E6E6;
+    color: black;
+}
+
+.nav-pills>li>a.pills-rubros{
+    color: #485561;
+}
+
+.nav-pills>li>a.pills-rubros:hover{
+    background-color: #F5EEEE;
+    color: #485561;
+}
