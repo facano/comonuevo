@@ -265,6 +265,7 @@ body{
 
 .nav-pills>li>a.pills-rubros{
     color: #485561;
+    background-color: white;
 }
 
 .nav-pills>li>a.pills-rubros:hover{
