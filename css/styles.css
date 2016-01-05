@@ -282,3 +282,13 @@ body{
 .select2-container{
     width:  120px;
 }
+
+#rubros img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+#rubros li.active img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
