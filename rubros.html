@@ -6,8 +6,12 @@
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.full.min.js"></script>
+
+    <script src="js/rubros.js"></script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
 
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css">
@@ -89,384 +93,396 @@
 
                                     <div  class = "tab-content">
                                         <div class = "tab-pane fade in active" id="calzado" >
+                                            <div class="filter-wrap">
+                                                <em>*Seleccione una comuna para filtrar los resultados</em>
+                                                <select name="" data-rubro="calzado" class="county-filter" style="min-width: 120px; width: 20%">
+                                                    <option value="all">-- Todas las comunas</option>
+                                                    <option value="comuna-reina">La Reina</option>
+                                                    <option value="comuna-condes">Las Condes</option>
+                                                    <option value="comuna-nunoa">Ñuñoa</option>
+                                                    <option value="comuna-providencia">Providencia</option>
+                                                    <option value="comuna-santiago">Santiago</option>
+                                                    <option value="comuna-vitacura">Vitacura</option>
+                                                </select>
+                                            </div>
 
                                             <div class="row">
 
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                                     <strong>Reparadora de Calzado Ángeles</strong><br>
                                                     <span>Principe de Gales 7271, La Reina</span><br>
                                                     <span>2-22228885</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                                     <strong>Reparadora de Calzado María Vidal</strong><br>
-                                                    <span>Aguas Claras 1641, Local 6La Reina</span><br>
+                                                    <span>Aguas Claras 1641, Local 6, La Reina</span><br>
                                                     <span>2-26585130</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                                     <strong>Reparadora de Calzado Aguas Claras</strong><br>
                                                     <span>Aguas Claras 1651, La Reina</span><br>
                                                     <span>2-27585130</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Vicente Pérez Rosales 320, La Reina</span><br>
                                                     <span>lunes a viernes de 11 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Echeñique 6289, La Reina</span><br>
                                                     <span>lunes a viernes de 12 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Isabel La Católica 6574, Las Condes</span><br>
                                                     <span>lunes a viernes de 9.30 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Reparadora de Calzado Cantagallo</strong><br>
                                                     <span>Nueva Las Condes 12253, Las Condes</span><br>
                                                     <span>9-91624723</span><br>
                                                     <span>lunes a viernes de 9.30 a 18</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>El Maestro</strong><br>
                                                     <span>Gilberto Fuenzalida 147, Las Condes</span><br>
                                                     <span>2-22209395</span><br>
                                                     <span>lunes a viernes de 9 a 19.30</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>F&F Reparadora de Calzado</strong><br>
-                                                    <span>Apoquindo 4830, Local 27Las Condes</span><br>
+                                                    <span>Apoquindo 4830, Local 27, Las Condes</span><br>
                                                     <span>2-22286271</span><br>
                                                     <span>lunes a viernes de 10 a 19.30</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Apoquindo 3307, Las Condes</span><br>
                                                     <span>lunes a viernes de 10.30 a 19,30</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Etorri</strong><br>
                                                     <span>Curaco 1940, Las Condes</span><br>
                                                     <span>2-22244743</span><br>
                                                     <span>lunes a viernes de 10 a 19.30</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Asturias</strong><br>
                                                     <span>Apoquindo 4343, Las Condes</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Stop</strong><br>
                                                     <span>Apoquindo 5681, Local 136Las Condes</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Reparadora de Calzado</strong><br>
-                                                    <span>Alejandro Fleming 7665, Local 1Las Condes</span><br>
+                                                    <span>Alejandro Fleming 7665, Local 1, Las Condes</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Apoquindo 7192, Las Condes</span><br>
                                                     <span>lunes a viernes de 9 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                     <strong>Blanchard</strong><br>
                                                     <span>Apoquindo 7240, Las Condes</span><br>
                                                     <span>Lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora Nueva Santa Gemita</strong><br>
                                                     <span>Francisco de Villagra 114, Ñuñoa</span><br>
                                                     <span>2-22271980</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora Paola</strong><br>
                                                     <span>Irarrázaval 1305, Ñuñoa</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Irarrázaval 2212, Ñuñoa</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Eduardo Castillo Velasco 5448, Ñuñoa</span><br>
                                                     <span>lunes a viernes de 15 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Irarrázaval 4114, Ñuñoa</span><br>
                                                     <span>2-22241487</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora Miguel</strong><br>
                                                     <span>General José Artigas 2954, Ñuñoa</span><br>
                                                     <span>9-90734029</span><br>
                                                     <span>lunes a viernes de 16 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Los Artesanos</strong><br>
                                                     <span>Pedro de Valdivia 3382, Ñuñoa</span><br>
                                                     <span>2-23416607</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Santa Inés</strong><br>
                                                     <span>Francisco de Villagra 330, Ñuñoa</span><br>
                                                     <span>lunes a viernes de 9.30 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Suecia 3570, Ñuñoa</span><br>
                                                     <span>2-23431471</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
-                                                    <span>Alcalde Jorge Monckeberg 629, BÑuñoa</span><br>
+                                                    <span>Alcalde Jorge Monckeberg 629, Ñuñoa</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Los Tres Antonios 944, Ñuñoa</span><br>
                                                     <span>lunes a viernes de 11 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Villaseca 16, Ñuñoa</span><br>
                                                     <span>2-23435935</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                     <strong>Reparadora Juan Ortiz</strong><br>
                                                     <span>Pucará 4761, Ñuñoa</span><br>
                                                     <span>lunes a viernes de 11 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de Calzado Neylan</strong><br>
                                                     <span>Providencia 1336, Providencia</span><br>
                                                     <span>2-24453125</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de Calzados Providencia</strong><br>
                                                     <span>Providencia 1308, Providencia</span><br>
                                                     <span>2-22518897</span><br>
                                                     <span>lunes a viernes de 10 a 18</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de Calzado Hernández</strong><br>
                                                     <span>Francisco Bilbao 2714, Providencia</span><br>
                                                     <span>2-23630125</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de Calzado</strong><br>
                                                     <span>Seminario 80, Providencia</span><br>
                                                     <span>9-94185242</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora Alemania</strong><br>
                                                     <span>Luis Thayer Ojeda 0127, Providencia</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de Calzado Antonio Varas</strong><br>
                                                     <span>Alcalde Rafael Vives 20, Providencia</span><br>
                                                     <span>2-22358360</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>El Nevado</strong><br>
                                                     <span>Providencia 2305, Providencia</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>El Roble</strong><br>
                                                     <span>Roman Díaz 26, Providencia</span><br>
                                                     <span>2-22360026</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Kezemaña</strong><br>
                                                     <span>Nueva Providencia 1745, Providencia</span><br>
                                                     <span>2-22366404</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Alba</strong><br>
                                                     <span>Jorge Matte Gormaz 2640, Providencia</span><br>
                                                     <span>9-95695637</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de Calzado </strong><br>
                                                     <span>Ricardo Lyon 146, Providencia</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>El Progreso</strong><br>
-                                                    <span>Providencia 2608, Local 8aProvidencia</span><br>
+                                                    <span>Providencia 2608, Local 8a, Providencia</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Anita, taller de calzados</strong><br>
                                                     <span>Providencia 2550, Local 38Providencia</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Pilita, taller de calzados</strong><br>
-                                                    <span>Manuel Montt 1349, Local 14Providencia</span><br>
+                                                    <span>Manuel Montt 1349, Local 14, Providencia</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Jorge Zapatero</strong><br>
-                                                    <span>Providencia 2529, Local 7Providencia</span><br>
+                                                    <span>Providencia 2529, Local 7, Providencia</span><br>
                                                     <span>2-22553840</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>La Tropicana</strong><br>
                                                     <span>Providencia 1622, Providencia</span><br>
                                                     <span>2-22366628</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de calzado</strong><br>
                                                     <span>Nueva Providencia 2249, Providencia</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Farbentex Reparadora de Calzado</strong><br>
                                                     <span>Providencia 1388, Providencia</span><br>
                                                     <span>9-76455147</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Reparadora de calzado Fidelina Perez</strong><br>
-                                                    <span>Ricardo Lyon 146, P.1, Local 6Providencia</span><br>
+                                                    <span>Ricardo Lyon 146, P.1, Local 6, Providencia</span><br>
                                                     <span>2-23350659</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora Alemana</strong><br>
                                                     <span>Agustinas 869, Santiago</span><br>
                                                     <span>2-26335059</span><br>
                                                     <span>lunes a viernes de 9 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Don Memo, reparadora de calzado</strong><br>
                                                     <span>Bandera 642, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>El Tito, reparadora de calzado</strong><br>
                                                     <span>Victoria 1143, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>River-San</strong><br>
                                                     <span>Catedral 1063, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Nueva Esperanza,</strong><br>
                                                     <span>Esperanza 12, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora Club Hipico</strong><br>
                                                     <span>Club Hípico 4787, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora San Ignacio</strong><br>
                                                     <span>San Ignacio de Loyola 75, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora de Calzado Germana</strong><br>
                                                     <span>Moneda 683-689, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora de Calzado</strong><br>
-                                                    <span>Bandera 818, Local 5Santiago</span><br>
+                                                    <span>Bandera 818, Local 5, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Dasu, reparadora de calzados</strong><br>
                                                     <span>Tucapel Jiménez 139, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora Premier</strong><br>
                                                     <span>San Antonio 33, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Astor, reparadora de calzados</strong><br>
                                                     <span>Huérfanos 886, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Jorge Martínez,</strong><br>
                                                     <span>Victoria 770, Santiago</span><br>
                                                     <span>lunes a viernes de 10 a 19</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Reparadora Teatinos,</strong><br>
                                                     <span>Teatinos 363, Santiago</span><br>
                                                     <span>2-26950651</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Central, taller de calzado</strong><br>
                                                     <span>Bombero Adolfo Ossa 1047, Santiago</span><br>
                                                     <span>2-26988034</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Rene Lucho, reparadora de calzados</strong><br>
                                                     <span>San Antonio 468, Santiago</span><br>
                                                     <span>2-26325571</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>El Artesano, reparadora de calzados</strong><br>
                                                     <span>Carmen 453, Santiago</span><br>
                                                     <span>9-68569867</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Grajal, reparadora de calzado</strong><br>
                                                     <span>Grajales 2087, Santiago</span><br>
                                                     <span>2-26720388</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Servi Pie, reparadora de calzados</strong><br>
                                                     <span>Moneda 940, Santiago</span><br>
                                                     <span>2-26981797</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>York, reparadora de calzados</strong><br>
                                                     <span>Libertador Bernardo O'Higgins 1146, Santiago</span><br>
                                                     <span>2-26986041</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Valentín Zapatero, taller de calzados</strong><br>
                                                     <span>10 de Julio Huamachuco 242, Santiago</span><br>
                                                     <span>9-78261167</span><br>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                                     <strong>El Viejo Bigotón Canoso</strong><br>
                                                     <span>Vitacura 7761, Vitacura</span><br>
                                                     <span>lunes a viernes de 9.30 a 17</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                                     <strong>Ronny</strong><br>
                                                     <span>Vitacura 6780, Local D-009, P -1, Vitacura</span><br>
                                                     <span>lunes a viernes de 10 a 20</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                                     <strong>El Bellaco</strong><br>
                                                     <span>Vitacura 6255, Vitacura</span><br>
                                                     <span>2-22422591</span><br>
@@ -475,15 +491,23 @@
                                             </div>
                                         </div>
                                         <div class = "tab-pane fade in" id="talabarteria">
+                                            <div class="filter-wrap">
+                                                <em>*Seleccione una comuna para filtrar los resultados</em>
+                                                <select name="" data-rubro="talabarteria" class="county-filter" style="min-width: 120px; width: 20%">
+                                                    <option value="all">-- Todas las comunas</option>
+                                                    <option value="comuna-independencia">Independencia</option>
+                                                    <option value="comuna-providencia">Providencia</option>
+                                                </select>
+                                            </div>
 
                                             <div class="row">
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-independencia">
                                                     <strong>Suelería San Fernando</strong><br>
                                                     <span>Independencia 141, Independencia</span><br>
                                                     <span>2-27357639</span><br>
                                                     <span>lunes a viernes de 10 a 18</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Cueroteca Sur</strong><br>
                                                     <span>Providencia 1979 , Local 17, Providencia</span><br>
                                                     <span>2-231 8147</span><br>
@@ -516,27 +540,35 @@
 
                                     <div  class = "tab-content">
                                         <div class = "tab-pane fade active in" id = "fotografia">
+                                            <div class="filter-wrap">
+                                                <em>*Seleccione una comuna para filtrar los resultados</em>
+                                                <select name="" data-rubro="fotografia" class="county-filter" style="min-width: 120px; width: 20%">
+                                                    <option value="all">-- Todas las comunas</option>
+                                                    <option value="comuna-providencia">Providencia</option>
+                                                    <option value="comuna-santiago">Santiago</option>
+                                                </select>
+                                            </div>
                                           <div class="row">
 
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Mt Solciones Digitales</strong><br>
                                                     <span>Las Palmas 2201</span><br>
                                                     <span>Providencia</span><br>
                                                     <span>2-22338968</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Electronica Solari</strong><br>
                                                     <span>Diagonal  Oriente 1900</span><br>
                                                     <span>Providencia</span><br>
                                                     <span>2-22044369</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                     <strong>Foto y Video Bahamondes</strong><br>
                                                     <span>Providencia 997</span><br>
                                                     <span>Providencia</span><br>
                                                     <span>2-22356211</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Mecánica Fotográfica Harry Muller</strong><br>
                                                     <span>Ahumada 312</span><br>
                                                     <span>Oficina 402</span><br>
@@ -544,36 +576,36 @@
                                                     <span>2-26983596</span><br>
                                                     <span>lunes a viernes de 9 a 18</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Abacil</strong><br>
                                                     <span> Nataniel Cox 945 </span><br>
                                                     <span>Santiago</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Luis Inapil</strong><br>
                                                     <span>Merced 832</span><br>
                                                     <span>Santiago</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Servi mundo Digital</strong><br>
                                                     <span>Merced 832</span><br>
                                                     <span>Local 2</span><br>
                                                     <span>Santiago</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Free Time</strong><br>
                                                     <span>Estado 215</span><br>
                                                     <span>Santiago</span><br>
                                                     <span>2-26640225</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Servicio Técnico Aranguiz</strong><br>
                                                     <span>San Antonio 558</span><br>
                                                     <span>Local 2</span><br>
                                                     <span>Santiago</span><br>
                                                     <span>2-26387723</span>
                                                 </div>
-                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                                <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                     <strong>Fhox Digital</strong><br>
                                                     <span>Diagonal Paraguay 471</span><br>
                                                     <span>Santiago</span><br>
@@ -583,139 +615,151 @@
                                         </div>
                                     </div>
                                     <div class = "tab-pane fade" id = "coser">
+                                      <div class="filter-wrap">
+                                                <em>*Seleccione una comuna para filtrar los resultados</em>
+                                                <select name="" data-rubro="coser" class="county-filter" style="min-width: 120px; width: 20%">
+                                                    <option value="all">-- Todas las comunas</option>
+                                                    <option value="comuna-condes">Las Condes</option>
+                                                    <option value="comuna-nunoa">Ñuñoa</option>
+                                                    <option value="comuna-providencia">Providencia</option>
+                                                    <option value="comuna-santiago">Santiago</option>
+                                                    <option value="comuna-vitacura">Vitacura</option>
+                                                </select>
+                                        </div>
+
                                       <div class="row">
 
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                 <strong>Reparaciones Walter Norambuena</strong><br>
                                                 <span>Estocolmo 322</span><br>
                                                 <span>Local 404</span><br>
                                                 <span>Las condes</span><br>
                                                 <span>2-22292564</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                                 <strong>Servicio Técnico Brother</strong><br>
                                                 <span>Presidente Riesco 5335</span><br>
                                                 <span>Las Condes</span><br>
                                                 <span>2-4116500</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                 <strong>Singuer y Nagoya</strong><br>
                                                 <span>Grecia 1922</span><br>
                                                 <span>Ñuñoa</span><br>
                                                 <span>2-22396938</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                                 <strong>Dismaco C.O</strong><br>
                                                 <span> General Bustamante 772 </span><br>
                                                 <span>Ñuñoa</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                 <strong>Janome</strong><br>
                                                 <span>Santa Isabel 1012</span><br>
                                                 <span>Providencia</span><br>
                                                 <span>2-2091890</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                 <strong>Remington Servicio Técnico</strong><br>
                                                 <span>Manuel Montt 037</span><br>
                                                 <span>Local 38</span><br>
                                                 <span>Providencia</span><br>
                                                 <span>2-236-3814</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Luis Contreras</strong><br>
                                                 <span>Libertador Bernardo O'Higgins 2825</span><br>
                                                 <span>Local 43</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Bordadoras Coser Mania</strong><br>
                                                 <span>Bandera 465</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Importadora Yuki</strong><br>
                                                 <span>Ricardo Cuming 93 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Suport</strong><br>
                                                 <span> Paseo Presidente Bulnes 411 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Tito Yarad</strong><br>
                                                 <span>Rio de Janeiro 470</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Iván Cerda</strong><br>
                                                 <span>San Javier 351</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-7762383</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Imac</strong><br>
                                                 <span>Rosas 1184</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-6735451</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Servicio Técnico Victor Nivaldo</strong><br>
                                                 <span>San Diego 1669</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-5519750</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Nervi y Silva</strong><br>
                                                 <span>Calle Lira 857</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-2221741</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Arturo Godofredo</strong><br>
                                                 <span>Libertador Bernardo O'higgins, 2825</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-6816037</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Donoso y Vargas</strong><br>
                                                 <span>Bandera 521</span><br>
                                                 <span>Local 26</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-6990670</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>La Bobina</strong><br>
                                                 <span>Rosas 1231</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-6715870</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>José Espinaza</strong><br>
                                                 <span>San Diego 1669</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-5519750</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Enrique Jadue</strong><br>
                                                 <span>Rosas 1172</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-6988077</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Casa Delia</strong><br>
                                                 <span>Rosas 1168</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-6956452</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Singuer y Nagoya</strong><br>
                                                 <span>Gilberto Fuenzalida 185</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-2112767</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                                 <strong>Arguello Hayden</strong><br>
                                                 <span>Tabancura 1050</span><br>
                                                 <span>Vitacura</span><br>
@@ -726,65 +770,74 @@
                                     </div>
 
                                     <div class = "tab-pane fade" id = "electrodomesticos">
+                                        <div class="filter-wrap">
+                                                <em>*Seleccione una comuna para filtrar los resultados</em>
+                                                <select name="" data-rubro="electrodomesticos" class="county-filter" style="min-width: 120px; width: 20%">
+                                                    <option value="all">-- Todas las comunas</option>
+                                                    <option value="comuna-providencia">Providencia</option>
+                                                    <option value="comuna-santiago">Santiago</option>
+                                                </select>
+                                        </div>
+
                                       <div class="row">
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Servicio TécnicoGeneral Electric</strong><br>
                                                 <span>Santa Elvira 50</span><br>
                                                 <span>Santiago</span><br>
                                                 <span>2-25559538</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Antonio Vidal</strong><br>
                                                 <span> Coquimbo 391 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Servicio Técnico Bajo Cero</strong><br>
                                                 <span> Echaurren 710,</span><br>
                                                 <span>Local 01</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Eliodoro Fernandez</strong><br>
                                                 <span>Padre Orellana 1261</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                                 <strong>Mercedes del Carmen</strong><br>
                                                 <span> Providencia 2529</span><br>
                                                 <span>Providencia</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Servicio Tecnico Erick Damaso </strong><br>
                                                 <span>Tocornal 384 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Luis Humberto Iturriaga</strong><br>
                                                 <span>San Diego 965</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Juan Ignacio Hernandez</strong><br>
                                                 <span> Castilla 620 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Tulio Mora</strong><br>
                                                 <span>Club Hipico 5454</span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Eluterio Miranda</strong><br>
                                                 <span> Copiapo 837 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Jorge Padilla</strong><br>
                                                 <span>Porvenir 348 </span><br>
                                                 <span>Santiago</span>
                                             </div>
-                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                            <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                                 <strong>Linda Mercedes</strong><br>
                                                 <span> Merced 739 </span><br>
                                                 <span>Santiago</span>
@@ -805,155 +858,168 @@
                                </div>
 
                                <div class = "tab-pane fade" id = "textil">
+                                    <div class="filter-wrap">
+                                                <em>*Seleccione una comuna para filtrar los resultados</em>
+                                                <select name="" data-rubro="textil" class="county-filter" style="min-width: 120px; width: 20%">
+                                                    <option value="all">-- Todas las comunas</option>
+                                                    <option value="comuna-reina">La Reina</option>
+                                                    <option value="comuna-condes">Las Condes</option>
+                                                    <option value="comuna-nunoa">Ñuñoa</option>
+                                                    <option value="comuna-providencia">Providencia</option>
+                                                    <option value="comuna-santiago">Santiago</option>
+                                                    <option value="comuna-vitacura">Vitacura</option>
+                                                </select>
+                                    </div>
+
                                     <div class="row">
 
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                             <strong>Reparadora de Ropa</strong><br>
                                             <span>Fernando Castillo Velasco 7006</span><br>
                                             <span>La Reina</span><br>
                                             <span>2-22660684</span><br>
                                             <span>lunes a viernes de 10.30 a 19</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-reina">
                                             <strong>Reparadora de Ropa</strong><br>
                                             <span>Monseñor Edwards 1376</span><br>
                                             <span>La Reina</span><br>
                                             <span>2-22260342</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Basta y Shoe Express</strong><br>
                                             <span>Presidente Kennedy 5413</span><br>
                                             <span>Local 672</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-29512865</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Arreglo de Ropa Marta</strong><br>
                                             <span>Florencio Barrios 1262</span><br>
                                             <span>K</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-24539081</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Arreglo y confección María Soledad</strong><br>
                                             <span>Francisco Bilbao 8010</span><br>
                                             <span>Local 6</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-22457656</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>El costurero</strong><br>
                                             <span>Alonso de Cordova 6014</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-201 6039</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Puntadas</strong><br>
                                             <span>Lolco 7680</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-202 5190</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Taller artesanal</strong><br>
                                             <span>Apoquindo 4351</span><br>
                                             <span>Local 22</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-228 9003</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Sastrería el Alfiler</strong><br>
                                             <span>Gilberto Fuenzalida 102</span><br>
                                             <span>Las Condes</span><br>
                                             <span>2-2202 9998</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-condes">
                                             <strong>Sastrería Aedo</strong><br>
                                             <span>Augusto Leguia Sur 79</span><br>
                                             <span>Las condes</span><br>
                                             <span>9-8291 1952</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                             <strong>Reparadora de Ropa</strong><br>
                                             <span>Irarrázaval 1080</span><br>
                                             <span>Ñuñoa</span><br>
                                             <span>lunes a viernes de 10 a 19</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                             <strong>Reparadora de Ropa Lucy</strong><br>
                                             <span>Irarrázaval 1812</span><br>
                                             <span>Ñuñoa</span><br>
                                             <span>2-22693931</span><br>
                                             <span>lunes a viernes de 10.30 a 20</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                             <strong>Reparadora de Ropa</strong><br>
                                             <span>General Gorostiaga 145</span><br>
                                             <span>Ñuñoa</span><br>
                                             <span>lunes a viernes de 10.30 a 19.30</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                             <strong>Sastrería Carlos Santana</strong><br>
                                             <span>José Manuel Infante 2351</span><br>
                                             <span>Ñuñoa</span><br>
                                             <span>2-22747807</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-nunoa">
                                             <strong>Taller Vajeroska</strong><br>
                                             <span>Irarrazabal 3054</span><br>
                                             <span>Local 102</span><br>
                                             <span>Ñuñoa</span><br>
                                             <span>2-269 7636</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Reparadora de Ropa Damaro</strong><br>
                                             <span>Manuel Montt 2558</span><br>
                                             <span>Providencia</span><br>
                                             <span>2-27694184</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Confecciones Melissa</strong><br>
                                             <span>Providencia 2198</span><br>
                                             <span>Local 4</span><br>
                                             <span>Providencia</span><br>
                                             <span>2-252 0470</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Don Arturo</strong><br>
                                             <span>Manuel Montt 2129</span><br>
                                             <span>Providencia</span><br>
                                             <span>2-341 4228</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Agustin Fontalba</strong><br>
                                             <span>Paseo las Palmas 2237</span><br>
                                             <span>Providencia</span><br>
                                             <span>2-233 3901</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>María Victoria Torres</strong><br>
                                             <span>Pedro de Valdivia 3474</span><br>
                                             <span>Local 60</span><br>
                                             <span>Providencia</span><br>
                                             <span>2-341 6970</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Reparadora Liliana</strong><br>
                                             <span>Providencia 2550</span><br>
                                             <span>Providencia</span><br>
                                             <span>lunes a viernes de 10 a 19</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Taller de costuras Mena</strong><br>
                                             <span>Providencia 1336</span><br>
                                             <span>Providencia</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-providencia">
                                             <strong>Taller de Costuras Esther</strong><br>
                                             <span>Providencia 2552</span><br>
                                             <span>Providencia</span><br>
                                             <span>2-2233 5304</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Zurcidos Maria Eugenia</strong><br>
                                             <span>Huerfanos 714</span><br>
                                             <span>Local 13</span><br>
@@ -961,58 +1027,58 @@
                                             <span>2-26398455</span><br>
                                             <span>lunes a viernes 11 a 19</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Sastrería Taylor</strong><br>
                                             <span>Moneda 772</span><br>
                                             <span>Santiago</span><br>
                                             <span>2-26648434</span><br>
                                             <span>lunes a viernes de 11 a 20</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Taller Erika Sigel</strong><br>
                                             <span>Compañía de Jesús 304</span><br>
                                             <span>Santiago</span><br>
                                             <span>2-26885637</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Taller Unisex Claus</strong><br>
                                             <span>Ricardo Cumming 597</span><br>
                                             <span>Santiago</span><br>
                                             <span>2-26986004</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Fortunato</strong><br>
                                             <span>Victoria 654</span><br>
                                             <span>Santiago</span><br>
                                             <span>2-25513791</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Hector Iturra Sastrería</strong><br>
                                             <span>Estado 235</span><br>
                                             <span>Santiago</span><br>
                                             <span>2-2632 6153</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-santiago">
                                             <strong>Sastrería Leon</strong><br>
                                             <span>San Pablo 2119</span><br>
                                             <span>Santiago</span><br>
                                             <span>2-2696 4448</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                             <strong>Hechuras y composturas Delia</strong><br>
                                             <span>Vitacura 5480</span><br>
                                             <span>Local 104</span><br>
                                             <span>Vitacura</span><br>
                                             <span>2-22191096</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                             <strong>El Punto Inglés</strong><br>
                                             <span>Vitacura 6255</span><br>
                                             <span>Local 107</span><br>
                                             <span>Vitacura</span><br>
                                             <span>2-22192432</span>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro">
+                                        <div class="col-md-3 col-sm-4 col-xs-6 col-lg-3 snippet-rubro comuna-vitacura">
                                             <strong>La Bastilla</strong><br>
                                             <span>Vitacura 7480</span><br>
                                             <span>Local 106</span><br>
