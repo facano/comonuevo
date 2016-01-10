@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
 
     <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -36,73 +37,113 @@
 
                 <div class="row">
                     <div class="col-md-12 bloque-contenedor">
-                        <h3>Talleres Como Nuevo</h3>
-                        <br>
+                       <ul class = "nav nav-pills">
+                           <li class = "active">
+                              <a href = "#talleres-realizados" data-toggle = "tab" class="pills-hazlotumismo">
+                                <span>Talleres Realizados</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href = "#talleres-all" data-toggle = "tab" class="pills-hazlotumismo">
+                                <span>Todos los Talleres</span>
+                              </a>
+                           </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="row bloque-contenedor">
-                    <div class="col-md-2">
-                        <a href="taller_diciembre.html">
-                            <img src="images/talleres/Diciembre.JPG" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Diciembre</div>
-                        </a>
+                <div  class = "tab-content">
+                    <div class = "tab-pane fade in active" id="talleres-realizados" >
+                        <div class="row">
+                            <div class="col-md-12 bloque-contenedor">
+                                <h3>Talleres Realizados</h3>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row bloque-contenedor">
+                            <div class="col-md-12">
+                                <div class="col-md-6 bloque-contenedor">
+                                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/yycRNYlvqdI" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Enero.JPG" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Enero</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Enero1.JPG" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Enero</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Febrero1.JPG" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Febrero</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Febrero2.JPG" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Febrero</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row bloque-contenedor">
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Marzo1.png" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Marzo</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Marzo2.jpg" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Marzo</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Abril1.jpg" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Abril</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Abril2.jpg" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Abril</div>
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#">
-                            <img src="images/talleres/Mayo1.jpg" alt="" class="img-talleres">
-                            <div class="text-talleres text-center">Mayo</div>
-                        </a>
+
+                    <div class = "tab-pane fade in" id="talleres-all" >
+
+                        <div class="row">
+                            <div class="col-md-12 bloque-contenedor">
+                                <h3>Talleres Como Nuevo</h3>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row bloque-contenedor">
+                            <div class="col-md-2">
+                                <a href="taller_diciembre.html">
+                                    <img src="images/talleres/Diciembre.JPG" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Diciembre</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Enero.JPG" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Enero</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Enero1.JPG" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Enero</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Febrero1.JPG" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Febrero</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Febrero2.JPG" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Febrero</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row bloque-contenedor">
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Marzo1.png" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Marzo</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Marzo2.jpg" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Marzo</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Abril1.jpg" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Abril</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Abril2.jpg" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Abril</div>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#">
+                                    <img src="images/talleres/Mayo1.jpg" alt="" class="img-talleres">
+                                    <div class="text-talleres text-center">Mayo</div>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 

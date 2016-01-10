@@ -329,3 +329,19 @@ body{
     width: 95%;
     margin: 5px 38px;
 }
+
+.nav-pills>li.active>a.pills-hazlotumismo, .nav-pills>li.active>a.pills-hazlotumismo:hover{
+    background-color: #E6E6E6;
+    color: black;
+}
+
+.nav-pills>li>a.pills-hazlotumismo{
+    color: #485561;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.nav-pills>li>a.pills-hazlotumismo:hover{
+    background-color: #F5EEEE;
+    color: #485561;
+}
