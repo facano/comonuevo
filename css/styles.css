@@ -307,3 +307,25 @@ body{
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
+
+.img-talleres{
+    max-width:  100%;
+}
+
+.text-talleres{
+    max-width:  100%;
+    position: relative;
+    top: -32px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 32px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.img-profesor{
+    width: 95%;
+    margin: 5px 38px;
+}
