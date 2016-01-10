@@ -219,6 +219,11 @@
     color: #CCC;
 }
 
+.bloque-contenedor div.bloque-texto:hover {
+    color: #757575;
+}
+
+
 .rubro-thumb{
     max-height: 100px;
     max-width: 150px;
