@@ -147,7 +147,7 @@
     padding-top: 20px;
 }
 
-#proyecto-linea-vertical{
+#proyecto-linea-vertical,  #proyecto-linea-vertical-2{
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -373,4 +373,28 @@ body{
 
 .video-title{
     margin-top: 26px;
+}
+
+.como-nuevo-img{
+    max-height: 390px;
+}
+
+#carousel-como-nuevo{
+        width: 585px;
+}
+
+#carousel-obsolescencia{
+        width: 550px;
+}
+
+.bloque-texto a{
+    color: #757575;
+}
+
+#proyecto-linea-vertical-2{
+    padding-top: 0;
+    color :#757575;
+}
+#proyecto-linea-vertical-2+h3{
+     color :#757575;
 }
