@@ -356,3 +356,12 @@ body{
     margin-left: 31%;
     margin-top: 3%;
 }
+
+.ekko-lightbox-container img{
+    width: 100%;
+}
+
+.ekko-lightbox{
+    width: 50%;
+    margin-left: 25%;
+}
