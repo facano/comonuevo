@@ -370,3 +370,7 @@ body{
 .nav-pills>li>a.pills-rubros:hover, .nav-pills>li.active>a.pills-rubros:hover{
     background-color: rgba(189, 192, 0, 0.4);
 }
+
+.video-title{
+    margin-top: 26px;
+}
