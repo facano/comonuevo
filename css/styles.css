@@ -210,6 +210,7 @@
     padding-top: 8px;
     background: rgba(0, 0, 0, 0.4);
     color: white;
+    font-size: 1.0em;
 }
 .bloque-contenedor a{
     color: white;
@@ -236,7 +237,7 @@
     font-weight: bold;
     text-align: right;
     padding-right: 15px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -274,8 +275,17 @@ body{
 }
 
 .sub-rubros{
-    top: -43px;
+    top: -38px;
     position: relative;
+}
+
+.sub-rubros .pills-rubros{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rubro-title{
+    font-size: 12px;
 }
 
 .nav-pills>li.active>a.pills-rubros, .nav-pills>li.active>a.pills-rubros:hover{
@@ -398,3 +408,18 @@ body{
 #proyecto-linea-vertical-2+h3{
      color :#757575;
 }
+
+.tabs-text{
+    font-size: 12px;
+}
+
+.text-title, h1, h1 span{
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+h2{
+   font-size: 17px;
+   text-transform: uppercase;
+}
+
