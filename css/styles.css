@@ -41,9 +41,17 @@
     font-size: 1.1vw;
 }
 
+.nav-list-home{
+    margin-top: 4%;
+}
+
 .nav-list li {
     display: inline;
     margin-left: 6%;
+}
+
+.nav-list-home li {
+    margin-left: 7%;
 }
 
 .nav-list li img{
@@ -362,9 +370,9 @@ body{
 }
 
 .title-img{
-    width: 38%;
-    margin-left: 31%;
-    margin-top: 3%;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
 }
 
 .ekko-lightbox-container img{
