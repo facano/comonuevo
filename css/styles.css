@@ -431,3 +431,13 @@ h2{
    text-transform: uppercase;
 }
 
+.ws{
+    white-space: nowrap;
+}
+
+.grayscale-img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+
