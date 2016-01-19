@@ -121,6 +121,10 @@
     margin-left: 2%;
 }
 
+.margin-left-1{
+    margin-left: 1%;
+}
+
 #proyecto_img{
     max-height: 430px;
 }
@@ -346,7 +350,7 @@ body{
 
 .img-profesor{
     width: 95%;
-    margin: 5px 38px;
+    margin: 5px 30px;
 }
 
 .nav-pills>li.active>a.pills-hazlotumismo, .nav-pills>li.active>a.pills-hazlotumismo:hover{
