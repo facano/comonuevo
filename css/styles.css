@@ -440,8 +440,20 @@ h2{
     filter: grayscale(90%);
 }
 
-.multimedia-container:hover{
+.highlight:hover{
     opacity: 0.7;
 }
 
+#section-header .nav-list li  a.highlight-link:hover{
+    color: #7A7A7A;
+}
+
+#home-header .nav-list li  a.highlight-link:hover{
+    color: #C3C49D;
+}
+
+a.jcarousel-control-prev:hover, a.jcarousel-control-next:hover{
+    text-decoration: none;
+    color: #BCB7B7;
+}
 
